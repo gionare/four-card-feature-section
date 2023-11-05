@@ -11,6 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="styles.css"/>
 
     <title>Frontend Mentor | Four card feature section</title>
 
@@ -26,15 +27,27 @@
     </style>
   </head>
   <body>
-    <div class="card">
-      <header class="header">
-        <h1>Reliable, efficient delivery</h1>
-        <h2>Powered by Technology</h2>
-        <p>
-          Our Artificial Intelligence powered tools use millions of project data
-          points to ensure that your project is successful
-        </p>
-      </header>
+    <header class="header">
+      <h1 class="primary-header"> 
+
+        <div class="glitch-wrapper">
+          <div class="glitch" data-text="Reliable, efficient delivery">Reliable efficient delivery</div>
+       </div>
+        <!-- Reliable, efficient delivery <br /> -->
+      <span>
+        
+        
+        Powered by Technology
+
+
+      </span>
+      </h1>
+      <p>
+        Our Artificial Intelligence powered tools use millions of project data
+        points to ensure that your project is successful
+      </p>
+    </header>
+    <div class="container">
       <div class="card-supervisor">
         <h2>Supervisor</h2>
         <p class="card-content-p">
@@ -73,5 +86,6 @@
         >. Coded by <a href="#">Your Name Here</a>.
       </p>
     </footer>
+
   </body>
 </html>
