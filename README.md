@@ -87,7 +87,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Github
 - [google fonts](url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@300;500;700;900&display=swap");) - This helped me for styles. I really liked this pattern and will use it going forward.
 - [css styles](https://cssgenerator.org) - kinda outdated webpage for css styles.
-(https://www.cssportal.com/css-flexbox-generator/)
+- [css styles](https://www.cssportal.com/css-flexbox-generator/)
 
 - [css styles](https://cssgenerator.org/border-radius-css-generator.html) - CSS Flexbox 
 Generator
