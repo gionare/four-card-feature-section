@@ -1,6 +1,6 @@
 # Frontend Mentor - Four card feature section solution
 
-This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -39,42 +39,30 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- wanted to use css grid, but prefered display flex
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- haven't used [React](https://reactjs.org/) - JS library
+- haven't used [Next.js](https://nextjs.org/) - React framework
 
 ### What I learned
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+arranged HTML and CSS so well
+
 ```js
 // Get all hr from container
-const hrElements = document.querySelectorAll('.container hr'); 
-const colors = [' #44D3D2', '#EA5454', ' #FCAE4A', '#549EF2'];
-
+const hrElements = document.querySelectorAll(".container hr");
+const colors = [" #44D3D2", "#EA5454", " #FCAE4A", "#549EF2"];
 
 // Loop hrElements with forEach method with two parameters, hr and index.
 hrElements.forEach((hr, index) => {
-// Calculate the color index based on the position in the array
+  // Calculate the color index based on the position in the array
   const colorIndex = index % colors.length;
-// Apply selected color as the background color for the current <hr> in the iteration.
+  // Apply selected color as the background color for the current <hr> in the iteration.
   hr.style.backgroundColor = colors[colorIndex];
 });
-
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 
 ### Continued development
 
@@ -82,21 +70,19 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- Visual Studio Code 
+- Visual Studio Code
 - VS Code Live Server Extension
 - Github
-- [google fonts](url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@300;500;700;900&display=swap");) - This helped me for styles. I really liked this pattern and will use it going forward.
+- [google fonts](<url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@300;500;700;900&display=swap");>) - This helped me for styles. I really liked this pattern and will use it going forward.
 - [css styles](https://cssgenerator.org) - kinda outdated webpage for css styles.
 - [css styles](https://www.cssportal.com/css-flexbox-generator/)
 
-- [css styles](https://cssgenerator.org/border-radius-css-generator.html) - CSS Flexbox 
-Generator
+- [css styles](https://cssgenerator.org/border-radius-css-generator.html) - CSS Flexbox
+  Generator
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [George](https://gionare.github.io/four-card-feature-section/)
 
 ## Acknowledgments
 
