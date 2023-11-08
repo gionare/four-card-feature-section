@@ -3,10 +3,12 @@
 body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   /* border: 4px SOLID; */
-
-  font-family: Hanken Grotesk;
+  font-family: "Hanken Grotesk";
+  height: 100vh;
+  gap: 76px;
 }
 
 /* ****************** */
@@ -42,14 +44,10 @@ body {
 }
 
 .header p {
+  opacity: 0.5;
   color: #4d4f62;
   text-align: center;
-  /* font-family: Poppins; */
-  /* font-size: 15px; */
-  /* font-style: normal; */
-  /* font-weight: 400; */
-  /* line-height: 25px; 166.667% */
-  /* letter-spacing: 0.104px;  */
+  margin: 0px;
 }
 
 /*************************/
@@ -57,62 +55,53 @@ body {
 /*************************/
 
 .container {
-  width: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-shrink: 0;
+  gap: 25px;
   /* border: 3px solid; */
-
 }
 
 .container hr {
   width: 100%;
   height: 3.552px;
   flex-shrink: 0;
-  /* background: #44d3d2; */
-  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-}
-
-.container card-supervisor {
-}
-
-.container div {
-  margin: 10px; /* Adjust the value to control the padding between items */
-  padding: px; /* You can also add padding inside the items */
-  background: #FFF;
-  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
-  
-  border-radius: 8px; 
 }
 
 .container h2 {
-  padding: 15px;
+  padding-top: 27px;
+  padding-left: 28px;
+  margin: 0px;
   color: #4d4f62;
   font-family: Poppins;
-  /* font-size: 20px; */
-  /* font-style: normal; */
-  /* font-weight: 600; */
-  /* line-height: normal;  */
 }
 
 .container p {
-  padding: 15px;
+  padding-left: 28px;
+  opacity: 0.5;
+  margin: 0px;
   color: #4d4f62;
-  /* font-family: Poppins; */
-  /* font-size: 13px; */
-  /* font-style: normal; */
-  /* font-weight: 400; */
-  /* line-height: 23px; 176.923% */
-  /* letter-spacing: 0.09px; */
 }
 
 .card-image {
-  padding: 15px;
+  padding-right: 27px;
+  padding-top: 20px;
+  width: 57px;
+  height: 57px;
+  flex-shrink: 0;
   float: right; /*To move item to most right in the container */
   /* border: 1px solid; */
 }
 
 .card-supervisor {
+  width: 311px;
+  height: 222px;
+  background: #fff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  flex-shrink: 0;
+
   /* display: flex; */
   /* flex-direction: column; */
   /* align-items: start; */
@@ -122,76 +111,100 @@ body {
 }
 
 .card-team-builder {
+  width: 311px;
+  height: 222px;
+  background: #fff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  flex-shrink: 0;
+
   /* border: 1px dotted; */
 }
 
 .card-karma {
+  width: 311px;
+  height: 222px;
+
+  background: #fff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  flex-shrink: 0;
+
   /* border: 1px solid; */
 }
 
 .card-calculator {
+  width: 311px;
+  height: 222px;
+
+  background: #fff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  flex-shrink: 0;
+
   /* border: 3px dotted; */
 }
 
-/* *******************  Glitch text effect   ********************** */
-/* .glitch-wrapper {
-    width: 100%;
-    height: 100%;
+/************************************/
+/*************** RESPONSIVE *************/
+/************************************/
+
+@media (min-width: 1400px) {
+  .container {
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
-    text-align: center;
-    background-color: #000000;
- }
- 
- .glitch {
-    position: relative;
-    font-size: 50px;
-    font-weight: bold;
-    color: #FFFFFF;
-    letter-spacing: 3px;
-    z-index: 1;
- }
- 
- .glitch:before,
- .glitch:after {
-    display: block;
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.8;
- }
- 
- .glitch:before {
-    animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
-    color: #00FFFF;
-    z-index: -1;
- }
- 
- .glitch:after {
-    animation: glitch-it 0.3s cubic-bezier(0.30, 0.46, 0.45, 0.94) reverse both infinite;
-    color: #FF00FF;
-    z-index: -2;
- }
- 
- @keyframes glitch-it {
-    0% {
-       transform: translate(0);
-    }
-    20% {
-       transform: translate(-2px, 2px);
-    }
-    40% {
-       transform: translate(-2px, -2px);
-    }
-    60% {
-       transform: translate(2px, 2px);
-    }
-    80% {
-       transform: translate(2px, -2px);
-    }
-    to {
-       transform: translate(0);
-    }
- } */
+    align-items: center;
+  }
+  .for-responsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .card-supervisor {
+    width: 350px;
+    height: 250px;
+    flex-shrink: 0;
+    background: #fff;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+  }
+
+  .card-team-builder {
+    width: 350px;
+    height: 250px;
+    flex-shrink: 0;
+    background: #fff;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+    flex-shrink: 0;
+
+    /* border: 1px dotted; */
+  }
+
+  .card-karma {
+    width: 350px;
+    height: 250px;
+    flex-shrink: 0;
+    background: #fff;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+    flex-shrink: 0;
+
+    /* border: 1px solid; */
+  }
+
+  .card-calculator {
+    width: 350px;
+    height: 250px;
+    flex-shrink: 0;
+    background: #fff;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+    flex-shrink: 0;
+
+    /* border: 3px dotted; */
+  }
+}
