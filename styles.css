@@ -63,6 +63,13 @@ body {
   /* border: 3px solid; */
 }
 
+.for-responsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
 .container hr {
   width: 100%;
   height: 3.552px;
@@ -156,12 +163,7 @@ body {
     justify-content: center;
     align-items: center;
   }
-  .for-responsive {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-  }
+  
 
   .card-supervisor {
     width: 350px;
