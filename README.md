@@ -5,8 +5,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 ### Screenshot
 
 <img src="design/desktop-design.jpg" width="750">
-![Design preview for the Four card feature section coding challenge]
-
 
 ## Table of contents
 
