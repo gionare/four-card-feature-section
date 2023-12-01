@@ -2,11 +2,16 @@
 
 This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+### Screenshot
+
+<img src="design/desktop-design.jpg" width="750">
+![Design preview for the Four card feature section coding challenge]
+
+
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -23,10 +28,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
-
-### Screenshot
-
-![Design preview for the Four card feature section coding challenge](![Alt text](design/desktop-design.jpg))
 
 ### Links
 
